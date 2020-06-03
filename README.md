@@ -1,21 +1,29 @@
-* One bouncing ball
+# Bouncing ball
+There's few experiments on different kind of bouncing ball.
 
-Writing a single ball bouncing inside a rectangle container box is straight forward, and accomplished with very few lines of codes.
+(i) One bouncing ball
 
-One ball bouncing inside a rectangle box. All codes in one file.
+(ii) Bouncing ball in object oriented design
 
-* Bouncing ball in object oriented design
+## One bouncing ball
+
+Writing a single ball bouncing inside a rectangle container box. 
+
+Straight-forward and accomplished with very few lines of codes. All codes in one file. Poor designed.
+
+
+## Bouncing ball in object oriented design
 
 Consist of following classes: 
 
-- Container Box Class
+* Container Box Class
 
-- Ball Class
+* Ball Class
 
-- Ball WorldClass - provides Control Logic such as gameStart() and gameUpdate()
+* Ball WorldClass - provides Control Logic such as gameStart() and gameUpdate()
 
 Two main classes:
 
-- Main Class - small frame
+* Main Class - small frame
 
-- Main Full Screen Only Class - full screen 
+* Main Full Screen Only Class - full screen 
